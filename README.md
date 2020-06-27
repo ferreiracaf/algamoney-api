@@ -1,1 +1,1 @@
-"# AlgaMoney API" 
+# AlgaMoney API
