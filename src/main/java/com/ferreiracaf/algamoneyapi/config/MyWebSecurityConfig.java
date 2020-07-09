@@ -9,7 +9,6 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @Configuration
 @EnableWebSecurity
-@EnableResourceServer
 public class MyWebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
