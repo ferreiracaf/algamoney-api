@@ -45,7 +45,7 @@ public class CategoriaResource {
 
     @DeleteMapping("{codigo}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void removerPessoa(@PathVariable Long codigo){
+    public void removerCategoria(@PathVariable Long codigo){
         categoriaService.removerCategoria(codigo);
     }
 }
